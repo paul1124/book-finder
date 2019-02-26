@@ -40,3 +40,16 @@ body {
   font-size: 1em;
   cursor: pointer;
 }
+#data {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.book {
+  border: 1px solid black;
+  width: 30%;
+  margin: 5px;
+}
+.book h2 {
+  font-size: 1.5em;
+}
