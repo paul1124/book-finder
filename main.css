@@ -1,0 +1,42 @@
+* {
+  text-align: center;
+  /* background: lightgray; */
+}
+
+body {
+  background: lightgray;
+  width: 60%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.main-title {
+  margin-top: 8rem;
+  font-size: 3rem;
+  font-family: monospace;
+  /* background: yellow; */
+}
+
+.inputField {
+  width: 100%;
+  /* background: red; */
+}
+.inputField input[type=text] {
+  width: 75%;
+  height: 2em;
+  text-align: left;
+  padding-left: 1em;
+  font-size: 1rem;
+}
+.inputField input[type=button] {
+  width: 18%;
+  height: 2em;
+  cursor: pointer;
+}
+.erase {
+  margin: 0 2em 0 -3em;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
